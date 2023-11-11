@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 export function Header() {
 	return (
 		<header>
 			<nav>
-				<a href='/home'>Home</a>
-				<a href='/store'>Store</a>
+				<Link to='/'>Home</Link>
+				<Link to='/store'>Store</Link>
 			</nav>
 		</header>
 	);

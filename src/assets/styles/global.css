@@ -1,0 +1,43 @@
+@import '_reset.css';
+
+* {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+	background: #8080bb;
+}
+
+header {
+	padding: 1rem 1.5rem;
+	background: #8888aa;
+	box-shadow: 0 2px 5px #12121265;
+}
+
+header nav {
+	padding: 1rem 0;
+	display: flex;
+	gap: 1rem;
+}
+
+header nav a {
+	color: #121200;
+	font-size: 1.75rem;
+	font-weight: 700;
+	text-decoration: none;
+
+	transition: text-decoration 150ms linear;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 1rem 1.5rem;
+}
+
+.inputWrapper {
+	display: flex;
+	gap: 1rem;
+}
